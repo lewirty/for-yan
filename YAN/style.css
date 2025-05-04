@@ -1,0 +1,59 @@
+*, *:after, *:before{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+
+html{
+    height: 100vh;
+    background-color: rgb(76, 139, 202);
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 20px;
+    padding-bottom: 40px;
+}
+button {
+    position: absolute;
+}
+button:hover{
+    background-color: aquamarine;
+}
+.yes-button{
+    cursor: pointer;
+    background-color: aqua;
+    width: 150px;
+    height: 20px;
+    top: 55%;
+    left: 38%;
+}
+.no-button{
+    cursor: pointer;
+    background-color: aqua;
+    width: 150px;
+    height: 20px;
+    top: 55%;
+    left: 52%;
+}
+.hide-button{
+    background-color: rgb(76, 139, 202);
+    color: rgb(76, 139, 202);
+}
+
+img{
+    display: none;
+}
